@@ -1,0 +1,24 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/showBook.css">
+</head>
+<section>
+    <h1>Information on the book</h1>
+    <h3>Title: {{this.title}}</h3>
+    <div class="poster"><img src={{this.picture}}></div>
+    <h3>Page Count: {{this.numberOfPages}}</h3>
+    <h3>Author: {{this.author}}</h3>
+    <h3>Genre: {{this.genre}}</h3>
+    <h3>Is it worth reading? {{this.worthReading}}</h3>
+    <h3>Year it was made: {{this.year}}</h3>
+    <h3>Owned in hardcover? {{this.hardcover}}</h3>
+    <h3>Owned in paperback? {{this.paperback}}</h3>
+
+    <div class="tag">
+        <a href="/books/editBook/{{this.id}}"> Edit/Delete</a>
+    </div>
+
+    <br>
+    <div class="tag">
+        <a href="/books">Back to Book Library?</a>
+    </div>
+</section>

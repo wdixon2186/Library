@@ -1,0 +1,75 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/bookEdit.css">
+</head>
+<section>
+    <h1>Edit Book:</h1>
+    <form action="/books/{{myBooks.id}}?_method=put" method="post">
+        <p>
+            <label>Title:</label>
+            <br>
+            <input type="text" value="{{myBooks.title}}" name="title" />
+        </p>
+
+
+        <p>
+            <label>Author:</label>
+            <br>
+            <input type="text" value="{{myBooks.author}}" name="author" />
+        </p>
+
+
+        <p>
+            <label>Year:</label>
+            <br>
+            <input type="text" value="{{myBooks.year}}" name="year" />
+        </p>
+
+
+        <p>
+            <label>Number of Pages:</label>
+            <br>
+            <input type="text" value="{{myBooks.numberOfPages}}" name="numberOfPages" />
+        </p>
+
+
+        <p>
+            <label>Genre:</label>
+            <br>
+            <input type="text" value="{{myBooks.genre}}" name="genre" />
+        </p>
+
+
+        <p>
+            <label>Worth Reading: (enter true or false)</label>
+            <br>
+            <input type="text" value="{{myBooks.worthReading}}" name="worthReading" />
+        </p>
+
+
+        <p>
+            <label>Own it in Hardcover: (enter true or false)</label>
+            <br>
+            <input type="text" value="{{myBooks.hardcover}}" name="hardcover" />
+        </p>
+
+
+        <p>
+            <label>Own it in paperback: (enter true or false)</label>
+            <br>
+            <input type="text" value="{{myBooks.paperback}}" name="paperback" />
+        </p>
+        <p>
+            <label>Picture URL:</label>
+            <br>
+            <input type="text" value="{{myBooks.picture}}" name="picture" />
+        </p>
+        <input class="button" type="submit" value="Update" />
+    </form>
+</section>
+<div>
+    <h1 class="delete">Delete Book?</h1>
+
+    <form action="/books/{{myBooks.id}}?_method=delete" method="post">
+        <input class="button" type="submit" value="Remove">
+    </form>
+</div>

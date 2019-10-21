@@ -1,0 +1,24 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/showMovie.css">
+</head>
+<div class="totalShow">
+    <h1>Information on the Movie</h1>
+    <h3>Title: {{this.title}}</h3>
+    <div class="poster"><img src={{this.picture}}></div>
+    <h3>Writer: {{this.writer}}</h3>
+    <h3>Director: {{this.director}}</h3>
+    <h3>Genre: {{this.genre}}</h3>
+    <h3>Is it worth watching? {{this.worthTheWatch}}</h3>
+    <h3>Own it on bluRay: {{this.bluRay}}</h3>
+    <h3>Own it on DVD? {{this.dvd}}</h3>
+    <h3>Year it was made? {{this.year}}</h3>
+
+    <div class="tag">
+        <a href="/movies/editMovie/{{this.id}}"> Edit/Delete</a>
+    </div>
+
+    <br>
+    <div class="tag">
+        <a href="/movies">Back to Movie Library?</a>
+    </div>
+</div>

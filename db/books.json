@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Annihilation",
+    "numberOfPages": 208,
+    "author": "Jeff VanderMeer",
+    "genre": "Sci-Fi/Horror/Mystery",
+    "worthReading": true,
+    "year": 2014,
+    "hardcover": false,
+    "paperback": true,
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/51VeF-ryTFL._SX337_BO1,204,203,200_.jpg"
+  },
+
+  {
+    "title": "Authority",
+    "numberOfPages": 352,
+    "author": "Jeff VanderMeer",
+    "genre": "Sci-Fi/Horror/Mystery",
+    "worthReading": true,
+    "year": 2014,
+    "hardcover": false,
+    "paperback": true,
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/51MZxPhyf%2BL.jpg"
+  },
+  {
+    "title": "Acceptance",
+    "numberOfPages": 341,
+    "author": "Jeff VanderMeer",
+    "genre": "Sci-Fi/Horror/Mystery",
+    "worthReading": true,
+    "year": 2014,
+    "hardcover": false,
+    "paperback": true,
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/51YgKt%2B9m3L._SX333_BO1,204,203,200_.jpg"
+  }
+]

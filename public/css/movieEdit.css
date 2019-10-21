@@ -1,0 +1,24 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2013/07/12/15/33/cutting-150066_960_720.png");
+  background-color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: orange;
+}
+.button {
+  background-color: orange;
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+}
+div {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.button:hover {
+  background-color: aqua;
+}

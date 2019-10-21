@@ -1,0 +1,47 @@
+body {
+  background-image: url("http://static1.squarespace.com/static/53cbed3de4b0c984e431b64d/53cd5808e4b0d40dcfea4855/593d549be4fcb5a7cbb206cc/1497193358774/open-book.jpg?format=1500w");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: auto;
+}
+a:hover {
+  color: grey;
+}
+
+h1 {
+  text-align: center;
+  /* margin: 0px 0px 200px 0px; */
+}
+h3 {
+  text-align: center;
+  margin: 40px 0px 30px 0px;
+}
+a {
+  font-size: 24px;
+  color: green;
+  text-align: center;
+}
+a:hover {
+  color: black;
+}
+.poster {
+  margin-left: auto;
+  margin-right: auto;
+  width: 275px;
+  height: 350px;
+}
+img {
+  width: 275px;
+  height: 350px;
+}
+.tag {
+  text-align: center;
+  width: 200px;
+  /* background-color: white; */
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,68 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/movieEdit.css">
+</head>
+<div>
+    <h2>Edit Movie:</h2>
+
+
+    <form action="/movies/{{myMovies.id}}?_method=put" method="post">
+        <p>
+            <label>Title:</label>
+            <input type="text" value="{{myMovies.title}}" name="title" />
+        </p>
+
+
+        <p>
+            <label>Writer:</label>
+            <input type="text" value="{{myMovies.writer}}" name="writer" />
+        </p>
+
+
+        <p>
+            <label>Director:</label>
+            <input type="text" value="{{myMovies.director}}" name="director" />
+        </p>
+
+
+        <p>
+            <label>Year:</label>
+            <input type="text" value="{{myMovies.year}}" name="year" />
+        </p>
+
+
+        <p>
+            <label>Genre:</label>
+            <input type="text" value="{{myMovies.genre}}" name="genre" />
+        </p>
+
+
+        <p>
+            <label>Worth the watch:</label>
+            <input type="text" value="{{myMovies.worthTheWatch}}" name="worthTheWatch" />
+        </p>
+
+
+        <p>
+            <label>Own it on blu ray:</label>
+            <input type="text" value="{{myMovies.bluRay}}" name="bluRay" />
+        </p>
+
+
+        <p>
+            <label>Own it on DVD:</label>
+            <input type="text" value="{{myMovies.dvd}}" name="dvd" />
+        </p>
+        <p>
+            <label>Picture URL:</label>
+            <br>
+            <input type="text" value="{{myMovies.picture}}" name="picture" />
+        </p>
+        <input class="button" type="submit" value="Update" />
+    </form>
+</div>
+
+<h2>Delete Movie?</h2>
+
+<form action="/movies/{{myMovies.id}}?_method=delete" method="post">
+    <input class="button" type="submit" value="Remove">
+</form>

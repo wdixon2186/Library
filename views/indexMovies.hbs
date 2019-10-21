@@ -1,0 +1,20 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/movieIndex.css">
+</head>
+<section>
+    <h1>Movies</h1>
+    <div class="anchor"><a href="/movies/newMovie">New Movie</a>
+    </div>
+    <br>
+    <div class="anchor">
+        <a href="/books">Want to see the books?</a>
+    </div>
+    {{#each myMovies}}
+
+    <div class="pic">
+        <a href="/movies/{{this.id}}"><img class="img" src={{this.picture}}>
+        </a>
+        {{!-- <p class="title">{{this.title}}</p> --}}
+    </div>
+    {{/each}}
+</section>

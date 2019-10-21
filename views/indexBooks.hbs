@@ -1,0 +1,16 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/bookIndex.css">
+</head>
+<section>
+    <h1>Books</h1>
+    <div class="anchor"><a href="/books/newBook">New Book</a></div>
+    <br>
+    <div class="anchor">
+        <a href="/movies">Want to see the movies?</a>
+    </div>
+    {{#each myBooks}}
+    <div class="pic">
+        <a href="/books/{{this.id}}"><img class="img" src={{this.picture}}></a>
+    </div>
+    {{/each}}
+</section>
